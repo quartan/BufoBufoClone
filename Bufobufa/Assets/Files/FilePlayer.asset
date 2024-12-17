@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 327103d0c33eb89449e75c5d431aaae7, type: 3}
+  m_Name: FilePlayer
+  m_EditorClassIdentifier: 
+  JSONPlayer:
+    nameUser: 
+    resources:
+      isPlayerRegistration: 0
+      currentIndexDialogPoint: 0
+      currentIndexDialog: 0
+      exerciseSaves: []
+      ingradientSaves:
+      - typeIngradient: cell
+        countIngradient: 0
+      - typeIngradient: detoxification
+        countIngradient: 0
+      - typeIngradient: digestion
+        countIngradient: 0
+      - typeIngradient: adaptation
+        countIngradient: 0
+      - typeIngradient: metabolism
+        countIngradient: 0
+      - typeIngradient: filtering
+        countIngradient: 0
+      - typeIngradient: gas
+        countIngradient: 0
+      - typeIngradient: regulation
+        countIngradient: 0
+      - typeIngradient: reduction
+        countIngradient: 0
+      - typeIngradient: Blue
+        countIngradient: 0
+      currentItemFromTableSave:
+        typeItemFromTable: 
+        indexPoint: 0
+      modelBoardSaves: []
+      itemFromTableSaves: []
+      magnetSaves: []
+      products:
+      - typeProduct: sigmaCell
+        countProduct: 280
+      - typeProduct: gas
+        countProduct: 4
+      - typeProduct: digestion
+        countProduct: 2
+      - typeProduct: regulation
+        countProduct: 8
